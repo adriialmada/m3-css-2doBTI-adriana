@@ -1,0 +1,109 @@
+
+ #section1{
+ background-color: black;
+color:bisque;
+ }
+ .section2{
+ background-color: aqua;
+ color:brown
+ }
+    
+/* Alineacion de textos */
+#articulo1{
+    text-align:  center;
+    /* puede tener los siguientes valores auto 
+    left,  right. center
+    justify 
+    Tambien existen otros atributos  para alinear
+    - text/aling
+    - text/aling-last
+    - vertical-aling
+    - direction
+    - unicode-bidi*/
+}
+/* Decoraciones de texto */
+#articulo1Titulo{
+    /* 
+     - text-decoration-line
+     -text-decoration-color
+     -text-decoration-style
+     -text-decoration-thincknees
+    */
+    text-decoration-line: underline;
+    /* solid, double, dotted dashed  wavy*/
+    /* underline overline line-through */
+    text-decoration-color: chocolate;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+}
+#articulo1Detalle{
+    text-decoration: underline wavy  rgb(180,  64, 64) 10%;
+    font-weight: lighter;
+}
+
+/* Transformaciones de texto */
+#articulo2Detalle{
+    text-transform: uppercase;
+    /* none, lowercase, uppercase, capitalize */
+    font-weight: bold;
+}
+
+/*  ESPACIADO  DE TEXTO */
+#articulo3Detalle{
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 2.0;
+    /* white-space: prewarp; */
+    font-weight: 800; /* 400 es normal  y 900 es el bold */
+}
+
+/* SOMBRAS EN LOS TEXTOS */
+#articulo2Titulo{
+    color: blue;
+    text-shadow: 3px  3px 5px red;
+    letter-spacing: 10px;
+    /* Fuentes en css */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 
+    font-size (xx-small, x-small, small, medium, large, x-large, xx-large
+    Se pude especificar los tamaños en:
+     px, em, rem, %, smaller and larger;
+    */
+    font-size: 4em; /* 1em =  16px & 1rem = 16px */
+}
+#articuloSeccion{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#articulo1, #articulo2, #articulo3{
+    border: solid 1px black;
+    margin: 10px;
+}
+
+#articulo1{
+    background-color: bisque;
+    padding: 10px;
+    border-left: inset 30px blue;
+    margin: 10px;
+}
+
+#articulo2{
+    background-color: black;
+    padding: 10px;
+    border-top: 10px black outset;
+    margin: 10px;
+}
+#articulo3{
+    background-color: purple;
+    padding: 10px;
+    border-bottom: dashed 10px red;
+    /*
+    Estilos de Bordes
+    border-style
+    dotted, dashed, solid
+    double, goove, ridge
+    inset,  outset, none
+    hidden
+    */
+}
